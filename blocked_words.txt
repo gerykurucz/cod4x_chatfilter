@@ -1,0 +1,186 @@
+# ============================================================
+# Chat Filter - Extended blocked word list
+# ============================================================
+#
+# Automatic mode:
+#   1-3 characters -> exact complete-word matching
+#   4+ characters  -> stem matching with accepted endings
+#
+# Explicit modes:
+#   exact:word
+#   stem:word
+#   contains:word
+#
+# Examples:
+#   wh   blocks wh / whhhhh, but allows what / where
+#   esp  blocks esp / essssp, but allows especially
+#   hack blocks hack / hacks / hacker / hackers / hacking /
+#        hackeeers, but allows hackathon
+# ============================================================
+
+# Cheat accusations and cheat-related terms
+wh
+esp
+hack
+cheat
+aimbot
+wallhack
+triggerbot
+spinbot
+multihack
+autofire
+autoshoot
+aimlock
+aimassist
+silentaim
+radarhack
+speedhack
+teleport
+norecoil
+rapidfire
+script
+scripting
+exploit
+glitch
+glitching
+injector
+loader
+bypass
+macro
+botting
+
+# Severe profanity - contains mode catches compounds and variants
+contains:fuck
+contains:motherfuck
+contains:shit
+contains:bitch
+contains:asshole
+contains:dickhead
+contains:dipshit
+contains:bullshit
+contains:jackass
+contains:dumbass
+contains:shithead
+contains:fuckface
+contains:shitface
+contains:sonofabitch
+
+# Strong insults and obscene terms
+bastard
+cunt
+whore
+slut
+prick
+twat
+wanker
+idiot
+moron
+imbecile
+retard
+retarded
+stupid
+loser
+pathetic
+scumbag
+shitbag
+douchebag
+douche
+jackass
+dumbass
+asshole
+dipshit
+shithead
+fuckhead
+fuckface
+clown
+crybaby
+coward
+garbage
+trash
+toxic
+useless
+worthless
+braindead
+brainlet
+degenerate
+creep
+weirdo
+freak
+parasite
+vermin
+filth
+scum
+noob
+newbie
+nub
+camper
+camping
+
+# Short obscene words - exact only, avoiding innocent substrings
+exact:ass
+exact:dick
+exact:cock
+exact:tit
+exact:tits
+
+# Family-related terms
+# These also block innocent sentences such as "my mother called me".
+exact:mom
+exact:mum
+exact:dad
+mother
+father
+mama
+papa
+mommy
+daddy
+
+# Common direct taunts
+sucker
+scrub
+pleb
+poser
+wannabe
+cheapskate
+tryhard
+sweaty
+salty
+crying
+whiner
+whining
+ragequit
+ragequitter
+lowlife
+illiterate
+ignorant
+arrogant
+annoying
+obnoxious
+disgusting
+horrible
+
+# Sexual or degrading insults
+pussy
+cocksucker
+dicksucker
+buttfuck
+buttfucker
+cumdump
+cumslut
+hoe
+hooker
+prostitute
+skank
+tramp
+pervert
+
+# Optional accusations or gameplay-related terms
+# Remove any that are too aggressive for normal server discussion.
+spawnkill
+spawnkiller
+abuser
+adminabuse
+walling
+tracking
+prefire
+prefiring
