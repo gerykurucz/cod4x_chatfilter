@@ -188,18 +188,6 @@ Mode IDs: 0=Auto, 1=Exact, 2=Stem, 3=Contains
 
 ---
 
-## Credits
-
-**Developers:** Teo ([@obteo](https://github.com/obteo)) & XV9K ([@sudoxv9k](https://github.com/sudoxv9k))
-
-**Platform:** COD4X (https://cod4x.ovh)
-
-**Disclaimer:** This plugin helps maintain chat quality but may require manual tuning for edge cases. Use alongside other moderation tools. By using this software you agree with the licensing.
-
-**License:** https://github.com/sudoxv9k/cod4x_chatfilter/blob/main/LICENSE
-
----
-
 ## Default Blocked Words Summary
 
 The included `blocked_words.txt` contains ~150 entries covering:
@@ -215,3 +203,15 @@ The included `blocked_words.txt` contains ~150 entries covering:
 | Gameplay | 10+ | spawnkill, camping, walling |
 
 Customize this list to match your server's community standards!
+
+---
+
+## Credits
+
+**Developers:** Teo ([@obteo](https://github.com/obteo)) & XV9K ([@sudoxv9k](https://github.com/sudoxv9k))
+
+**Platform:** COD4X (https://cod4x.ovh)
+
+**Disclaimer:** This plugin helps maintain chat quality but may require manual tuning for edge cases. Use alongside other moderation tools. By using this software you agree with the ([LICENSE](https://github.com/sudoxv9k/cod4x_chatfilter/blob/main/LICENSE)).
+
+
