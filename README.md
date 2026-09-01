@@ -208,10 +208,10 @@ Customize this list to match your server's community standards!
 
 ## Credits
 
-**Developers:** Teo ([@obteo](https://github.com/obteo)) & XV9K ([@sudoxv9k](https://github.com/sudoxv9k))
+**Developers:** [Teo](https://github.com/obteo) & [Gery Kurucz](https://github.com/gerykurucz)
 
 **Platform:** COD4X (https://cod4x.ovh)
 
-**Disclaimer:** This plugin helps maintain chat quality but may require manual tuning for edge cases. Use alongside other moderation tools. By using this software you agree with the ([LICENSE](https://github.com/sudoxv9k/cod4x_chatfilter/blob/main/LICENSE)).
+**Disclaimer:** This plugin helps maintain chat quality but may require manual tuning for edge cases. Use alongside other moderation tools. By using this software you agree with the [LICENSE](https://github.com/gerykurucz/cod4x_chatfilter/blob/main/LICENSE).
 
 

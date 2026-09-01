@@ -2,7 +2,8 @@
  * ============================================================
  *  Chat Filter - COD4X Plugin
  *  Version: 3.2
- *  Developers: Teo(@obteo) & XV9K (@sudoxv9k)
+ *  Developers: Teo(github.com/obteo) & Gery Kurucz (github.com/gerykurucz)
+ *  LICENSE: https://github.com/gerykurucz/cod4x_chatfilter/blob/main/LICENSE
  * ============================================================
  */
 
